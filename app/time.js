@@ -1,1 +1,1 @@
-export { default } from '@busybusy/utils/time';
+export { default } from '@busy-web/utils/time';

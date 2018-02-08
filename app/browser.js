@@ -1,1 +1,1 @@
-export { default } from '@busybusy/utils/browser';
+export { default } from '@busy-web/utils/browser';

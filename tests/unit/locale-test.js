@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { Locale } from '@busybusy/utils';
+import { Locale } from '@busy-web/utils';
 
 module('Unit | Utility | loc');
 

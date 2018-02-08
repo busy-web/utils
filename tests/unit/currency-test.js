@@ -1,7 +1,7 @@
 import { isNone } from '@ember/utils';
 import { isArray } from '@ember/array';
 import { module, test } from 'qunit';
-import { Currency } from '@busybusy/utils';
+import { Currency } from '@busy-web/utils';
 
 module('Unit | Utility | Currency');
 

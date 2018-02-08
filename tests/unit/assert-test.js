@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import moment from 'moment';
-import { Assert as assertTools, UUID } from '@busybusy/utils';
+import { Assert as assertTools, UUID } from '@busy-web/utils';
 
 module('Unit | Utility | Assert');
 

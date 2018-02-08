@@ -1,1 +1,1 @@
-export { default } from '@busybusy/utils/local-storage';
+export { default } from '@busy-web/utils/local-storage';

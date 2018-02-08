@@ -1,1 +1,1 @@
-export { default } from '@busybusy/utils/loc';
+export { default } from '@busy-web/utils/loc';

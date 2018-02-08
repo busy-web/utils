@@ -1,9 +1,9 @@
 /**
- * @busybusy/utils module
+ * @busy-web/utils module
  *
  */
 
-declare module '@busybusy/utils' {
+declare module '@busy-web/utils' {
 	export class Assert {
 		public static funcNumArgs(args: any[], argCount: number, equal: boolean): Assert;
 		public static isString(value: any): Assert;

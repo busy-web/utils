@@ -3,7 +3,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/aefbc5cd65a483094401/test_coverage)](https://codeclimate.com/github/busy-web/utils/test_coverage)
 [![GitHub version](https://badge.fury.io/gh/busy-web%2Futils.svg)](https://badge.fury.io/gh/busy-web%2Futils)
 
-@busybusy/utils
+@busy-web/utils
 ==============================================================================
 
 Installation
@@ -17,7 +17,7 @@ ember install @busy-web/utils
 Usage
 ------------------------------------------------------------------------------
 
-Use @busybusy/utils in your js files
+Use @busy-web/utils in your js files
 ```
 import { Assert } from '@busy-web/utils';
 

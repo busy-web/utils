@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { LocalStorage } from '@busybusy/utils';
+import { LocalStorage } from '@busy-web/utils';
 
 module('Unit | Utility | LocalStorage');
 

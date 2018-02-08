@@ -4,7 +4,7 @@
 const commands = require('./lib/commands');
 
 module.exports = {
-  name: '@busybusy/utils',
+  name: '@busy-web/utils',
 
 	includedCommands() {
 		return commands;

@@ -1,1 +1,1 @@
-export { default } from '@busybusy/utils/locale';
+export { default } from '@busy-utils/utils/locale';

@@ -1,1 +1,1 @@
-export { default } from '@busybusy/utils/currency';
+export { default } from '@busy-web/utils/currency';

@@ -1,1 +1,1 @@
-export { default } from '@busybusy/utils/utils/currency-codes.js';
+export { default } from '@busy-web/utils/utils/currency-codes.js';

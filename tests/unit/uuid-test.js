@@ -1,7 +1,7 @@
 import EmberObject from '@ember/object';
 import { A } from '@ember/array';
 import { module, test } from 'qunit';
-import { UUID } from '@busybusy/utils';
+import { UUID } from '@busy-web/utils';
 
 module('Unit | Utility | UUID');
 
