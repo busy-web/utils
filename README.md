@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/busy-web/utils.svg?branch=master)](https://travis-ci.org/busy-web/utils)
+
 @busybusy/utils
 ==============================================================================
 
