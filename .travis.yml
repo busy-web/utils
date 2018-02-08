@@ -16,7 +16,7 @@ env:
   global:
     # See https://git.io/vdao3 for details.
     - JOBS=1
-    - CC_TEST_REPORTER_ID=9ed84a944afd64cb9846db476760d6ceaa577acaf239b415e4d13a3369579c4c
+    - CC_TEST_REPORTER_ID=008874ad65bde844b00a9c7f0773e0cdd1af4374b256b9291cf073c35ef5021f
   matrix:
     # we recommend new addons test the current and previous LTS
     # as well as latest stable release (bonus points to beta/canary)
@@ -53,11 +53,3 @@ after_script:
   #- ./cc-test-reporter format-coverage --input-type lcov coverage/lcov.info
   - ./lib/helpers/coverage-parser.js
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-
-#addons:
-#  code_climate:
-#    repo_token: 9ed84a944afd64cb9846db476760d6ceaa577acaf239b415e4d13a3369579c4c
-#
-#after_success:
-#  - npm install -g codeclimate-test-reporter
-#  - codeclimate-test-reporter < coverage/lcov.info

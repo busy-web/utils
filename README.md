@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/busy-web/utils.svg?branch=master)](https://travis-ci.org/busy-web/utils)
+[![Maintainability](https://api.codeclimate.com/v1/badges/aefbc5cd65a483094401/maintainability)](https://codeclimate.com/github/busy-web/utils/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/aefbc5cd65a483094401/test_coverage)](https://codeclimate.com/github/busy-web/utils/test_coverage)
+[![GitHub version](https://badge.fury.io/gh/busy-web%2Futils.svg)](https://badge.fury.io/gh/busy-web%2Futils)
 
 @busybusy/utils
 ==============================================================================
