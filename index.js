@@ -8,5 +8,9 @@ module.exports = {
 
 	includedCommands() {
 		return commands;
+	},
+
+	isDevelopingAddon() {
+		return true;
 	}
 };

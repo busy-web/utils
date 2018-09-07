@@ -2,8 +2,9 @@
  * @busy-web/utils module
  *
  */
-
 declare module '@busy-web/utils' {
+	//import { Moment } from 'moment';
+
 	export class Assert {
 		public static funcNumArgs(args: any[], argCount: number, equal: boolean): Assert;
 		public static isString(value: any): Assert;
@@ -30,9 +31,9 @@ declare module '@busy-web/utils' {
 
 	export class Currency {
 		public static codes(): number[];
-		public static code(type): number;
-		public static country(type): string;
-		public static number(type): number;
+		public static code(type: string): number;
+		public static country(type: string): string;
+		public static number(type: string | number): number;
 		public static countries(): string[];
 	}
 
@@ -57,14 +58,20 @@ declare module '@busy-web/utils' {
 	}
 
 	export class Time {
+		public static date(): any;
+		public static date(timestamp: number): any;
+
+		public static timezone(): number;
 		public static timezone(timestamp: number): number;
+
+		public static timestamp(): number;
 		public static timestamp(timestamp: number): number;
+
 		public static locale(): string;
 		public static timeFormat(timestamp: number, formatStr: string): string;
 		public static dateFormat(date: object, formatStr: string): string;
 		public static now(): object;
 		public static utcTimestamp(): number;
-		public static date(timestamp: number): object;
 		public static isDST(timestamp: number): boolean;
 		public static nistTimestamp(): number;
 		public static isTrustedTimeType(): boolean;
